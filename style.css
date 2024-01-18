@@ -1,0 +1,41 @@
+.icon-bar {
+    width: 90px;
+    background-color: chartreuse;
+   }
+
+.icon-bar a {
+    display: block;
+    align-items: center;
+    padding: 16px ;
+    transition: all 0.3s ease;
+    color: black;
+    font-size: 36px;
+
+}
+.icon-bar a:hover {
+    background-color: aliceblue;
+}
+.active {
+    background-color: aliceblue;
+}
+
+.icon-bar1 {
+    width: 100%;
+    background-color: chartreuse;
+    overflow: auto;
+}
+.icon-bar1 a {
+    float: left;
+    text-align: center;
+    width: 20%;
+    padding: 12px 0 ;
+    transition: all 0.3s ease;
+    color: black;
+    font-size: 36px;
+}
+.icon-bar1 a:hover {
+    background-color: aliceblue;
+}
+.active {
+    background-color: aliceblue;
+}
